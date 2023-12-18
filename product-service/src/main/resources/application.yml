@@ -16,18 +16,11 @@ spring:
       ddl-auto: update
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-        org:
-          hibernate.
-          resource.
-          transaction.
-          backend.
-          jdbc.
-          internal.
-          JdbcIsolationDelegate.
-          sqlExceptionHelper()
 
 eureka:
   client:
+    server:
+      port: 9001
     instance-info-replication-interval-seconds: 5
     registry-fetch-interval-seconds: 5
     serviceUrl:
