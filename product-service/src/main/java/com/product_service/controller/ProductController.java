@@ -1,7 +1,7 @@
 package com.product_service.controller;
 
 import com.product_service.dto.Product;
-import com.product_service.service.ProductService;
+import com.product_service.service.ımpl.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

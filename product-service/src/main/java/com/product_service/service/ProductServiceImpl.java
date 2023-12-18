@@ -1,4 +1,4 @@
-package com.product_service.service.ımpl;
+package com.product_service.service;
 
 
 import com.product_service.dto.Product;
